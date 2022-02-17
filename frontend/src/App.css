@@ -1,0 +1,100 @@
+.App {
+  background-color: #E8E8E8;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.table-left{
+  margin: "5px 0px";
+  padding: "10px 5px";
+  background-color: "#F4F4F2";
+  border-radius: "8px 0 0 8px";
+}
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #F4F4F2;
+  ;
+}
+.tr-table{
+  margin: "5px 0px";
+  padding: "10px 5px";
+  background: "#F4F4F2";
+  border-radius: "8px 0 0 8px";
+}
+.tr-table:hover{
+  background: #BBBFCA;
+}
+.total-div{
+  background: #BBBFCA ;
+  padding-top: 10px;
+  border-radius: 10px;
+}
+.sidebar-li-active {
+  background: #282c34 ;
+  width: 232px;
+  padding: 0px 20px;
+  border-radius: 10px 0px 0px 10px;
+  margin: 5px 0px;
+}
+.sidebar-li {
+  width: 232px;
+  padding: 0px 20px;
+  border-radius: 10px 0px 0px 10px;
+  margin: 1px 0px;
+}
+.sidebar-li:hover {
+  background: #282c34 ;
+}
+
+/* enable absolute positioning */
+.inner-addon { 
+  position: relative; 
+}
+
+/* style icon */
+.inner-addon .fa {
+position: absolute;
+padding: 10px;
+pointer-events: none;
+}
+
+/* align icon */
+.left-addon .fa  { left:  0px;}
+.right-addon .fa { right: 0px;}
+
+/* add padding  */
+.left-addon input  { padding-left:  30px; }
+.right-addon input { padding-right: 30px; }
